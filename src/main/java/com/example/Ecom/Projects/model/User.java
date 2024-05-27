@@ -1,7 +1,10 @@
 package com.example.Ecom.Projects.model;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.Id;
 
-@Entity;
+@Entity
 public class User {
 
     @Id
