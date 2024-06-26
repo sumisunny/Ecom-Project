@@ -29,7 +29,7 @@ export default function Home() {
       users.map((user, index) => (
       <tr>
       <th scope="row" key={index}>
-        {index + 1}
+        {index+1}
       </th>
       <td>{user.name}</td>
       <td>{user.username}</td>
